@@ -1,0 +1,30 @@
+# Node.js / Electron
+node_modules/
+dist/
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+*.log
+
+# 環境設定
+.env
+.env.local
+
+# ビルド時の一時ファイル
+.tmp/
+build/
+
+# エディタ設定
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# デバッグファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Electronパッケージングで作成されるファイル
+out/ 
